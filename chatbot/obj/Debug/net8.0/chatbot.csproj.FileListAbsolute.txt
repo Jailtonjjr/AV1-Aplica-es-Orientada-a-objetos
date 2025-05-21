@@ -1,0 +1,15 @@
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/bin/Debug/net8.0/chatbot
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/bin/Debug/net8.0/chatbot.deps.json
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/bin/Debug/net8.0/chatbot.runtimeconfig.json
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/bin/Debug/net8.0/chatbot.dll
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/bin/Debug/net8.0/chatbot.pdb
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.AssemblyInfoInputs.cache
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.AssemblyInfo.cs
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.csproj.CoreCompileInputs.cache
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.sourcelink.json
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.dll
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/refint/chatbot.dll
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.pdb
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/chatbot.genruntimeconfig.cache
+/workspaces/AV1-Aplica-es-Orientada-a-objetos/chatbot/obj/Debug/net8.0/ref/chatbot.dll
