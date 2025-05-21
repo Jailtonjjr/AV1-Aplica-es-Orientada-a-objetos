@@ -2,7 +2,6 @@ using WHATSAPP;
 using TELEGRAM;
 using INSTAGRAM;
 using FACEBOOK;
-using System;
 
 namespace CHATBOT
 {
@@ -28,59 +27,26 @@ namespace CHATBOT
                     }
                     break;
                 case "telegram":
-                    Console.WriteLine("digite o nome do usuario: ");
+                    Console.WriteLine("digite o nome do usuario ou numero de telefone: ");
                     string entradanome = Console.ReadLine();
-                    Console.WriteLine($"o usuario que você digitou é {entradanome}");
                     Telegram telegram = new Telegram(entradanome);
-                    
+
+
                     break;
                 case "facebook":
                     Console.WriteLine("digite o nome do usuario: ");
                     string entradanomeusuario = Console.ReadLine();
                     Console.WriteLine($"o usuario que você digitou é {entradanomeusuario}");
                     Facebook facebook = new Facebook(entradanomeusuario);
-                    
+
                     break;
                 case "instagram":
                     Console.WriteLine("digite o nome do usuario: ");
                     string entradanomeinstagram = Console.ReadLine();
                     Console.WriteLine($"o usuario que você digitou é {entradanomeinstagram}");
                     Instagram instagram = new Instagram(entradanomeinstagram);
-                    
                     break;
-
-            }  
-                     
-            
+            }
         }
-
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }

@@ -11,6 +11,7 @@ namespace MENSAGEM
             switch (tipo)
             {
                 case "texto":
+                    Console.WriteLine("Digite a sua mensagem aqui:");
                     string nome = Console.ReadLine();
                     Console.WriteLine($"{nome}");
                     break;
@@ -23,8 +24,8 @@ namespace MENSAGEM
                     Console.WriteLine("Para podermos continuar a busca, Por Favor digite o formato do video:");
                     string formato_video = Console.ReadLine();
                     int duracao = rand.Next(0, 59);
-                    int segundo = rand.Next(0, 60);
-                    Console.WriteLine($"video enviado para {duracao} minutos e {segundo} segundos.");
+                    int segundo = rand.Next(0, 59);
+                    Console.WriteLine($"video enviado com duração de {duracao} minutos e {segundo} segundos.");
                     break;
 
                 case "imagem":
@@ -32,7 +33,7 @@ namespace MENSAGEM
                     string Mensagem_imagem = Console.ReadLine();
                     Console.WriteLine("estamos com uma tecnologia diferente hoje, só de você digitar o nome do arquivo localizaremos ele em sua pasta, agora digite o nome da imagem: ");
                     string nome_imagem = Console.ReadLine();
-                    Console.WriteLine("Para podermos continuar a busca, Por Favor digite o formato do video:");
+                    Console.WriteLine("Para podermos continuar a busca, Por Favor digite o formato da imagem:");
                     string formato_imagem = Console.ReadLine();
                     break;
 
@@ -41,7 +42,7 @@ namespace MENSAGEM
                     string Mensagem_arquivo = Console.ReadLine();
                     Console.WriteLine("estamos com uma tecnologia diferente hoje, só de você digitar o nome do arquivo localizaremos ele em sua pasta, agora digite o nome do arquivo: ");
                     string nome_arquivo = Console.ReadLine();
-                    Console.WriteLine("Para podermos continuar a busca, Por Favor digite o formato do video:");
+                    Console.WriteLine("Para podermos continuar a busca, Por Favor digite o formato do arquivo:");
                     string formato_arquivo = Console.ReadLine();
                     break;
 
